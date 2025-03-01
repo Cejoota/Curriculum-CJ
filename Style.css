@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #63c0e56e;
-    border: 10px solid black;
+    border: 3px solid black;
     width: 1200px;
     height: 1295px;
     margin: auto;
@@ -19,7 +19,7 @@ body{
 #direito{
     background-color: white;
     width: 750px;
-    height: 1090px;
+    height: 1089px;
     float: right;
     box-sizing: border-box;
     padding: 10px 50px 0 0;
