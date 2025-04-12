@@ -1,143 +1,144 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    border: 3px solid black;
-    width: 1200px;
-    margin: 1 auto;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid black;
+  height: 1122px;
+  width: 793px;
+  margin: 0 auto;
 }
 
-.nome{
-    background-color: #0a0a77;
-    color: white;
-    padding: 60px;
-    text-align: center;
-    font-size: 50px;
+.nome {
+  background-color: #0a0a77;
+  color: white;
+  padding: 60px;
+  text-align: center;
+  font-size: 40px;
 }
 
-#direito{
-    background-color: white;
-    width: 62%;
-    float: right;
-    box-sizing: border-box;
-    padding-right: 50px;
+#direito {
+  background-color: white;
+  width: 62%;
+  float: right;
+  box-sizing: border-box;
+  padding-right: 50px;
 }
 
-.resumo{
-    font-size: 22px;
-    text-align: left;
-    padding: 28px;
+.resumo {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  padding: 28px;
 }
-.resumo2{
-    box-sizing: content-box;
-    text-align: left;
-    margin-left: 45px;
-}
-
-.xp{
-    font-size: 22px;
-    text-align: left;
-    padding: 28px ;
+.resumo2 {
+  font-size: 13px;
+  box-sizing: content-box;
+  text-align: left;
+  margin-left: 45px;
 }
 
-.xp2{
-    box-sizing: content-box;
-    text-align: left;
-    list-style-type: disc;
-    list-style-position: inside;
-    padding: 0 0 3px 30px;
-    letter-spacing: 0.5px;
+.xp {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  padding: 28px;
 }
 
-.empresa{
-    margin: 0 0 10px 10px;
-    padding: 10px 0 0 20px;
-    font-weight: bold;
+.xp2 {
+  font-size: 13px;
+  box-sizing: content-box;
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 0 0 3px 30px;
+  letter-spacing: 0.5px;
 }
 
-.cargo{
-    padding: 5px;
-    margin: 0 0 5px 27px;
+.empresa {
+  font-size: 15px;
+  margin: 0 0 10px 10px;
+  padding: 10px 0 0 20px;
+  font-weight: bold;
 }
 
-
-#esquerdo{
-    background-color: #63c0e56e;
-    width: 456px;
-    height: 987px;
-    box-sizing: border-box;
-    padding-right:24px; 
+.cargo {
+  font-size: 15px;
+  padding: 5px;
+  margin: 0 0 5px 27px;
 }
 
-.contato{
-    font-size: 22px;
-    text-align: left;
-    padding: 28px ;
+#esquerdo {
+  background-color: #63c0e56e;
+  width: 48%;
+  height: 77.5%;
+  box-sizing: border-box;
+  padding-right: 24px;
 }
 
-.ct1{
-    font-size: 18px;
+.contato {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  padding: 28px;
 }
 
-.ct2{
-    font-size: 18px;
+.ct1, .ct2, .ct3, .ct4 {
+  font-size: 15px;
 }
 
-.ct3{
-    font-size: 18px;
+.hab {
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 20px;
+  margin: 28px;
 }
 
-.ct4{
-    font-size: 18px;
-
+.hab2 {
+    font-size: 13px;
+  box-sizing: content-box;
+  text-align: left;
+  list-style-type: disc;
+  padding: 0 0 7px 7%;
+  list-style-position: inside;
+  letter-spacing: 0.5px;
 }
 
-.hab{
-    font-size: 22px;  
-    padding-top: 20px;
-    margin: 28px;
+.div__contato{
+  padding: 2px;
 }
 
-.hab2{
-    box-sizing: content-box;
-    text-align: left;
-    list-style-type: circle;
-    padding: 0 0 7px 7%;
-    list-style-position: inside;
-    letter-spacing: 0.5px;
+.infad {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 28px;
 }
 
-.infad{
-    font-size: 22px;
-    margin: 28px;
+.linkedin {
+  width: 30px;
+  vertical-align: middle;
+  padding: 0 0 0 25px;
 }
 
-.linkedin{
-    width: 40px;
-    vertical-align: middle;
-    padding: 0 0 0 25px;
+.cel {
+  width: 22px;
+  vertical-align: middle;
+  padding: 0 0 0 30px;
 }
 
-.cel{
-    width: 33px;
-    vertical-align: middle;
-    padding: 0 0 0 30px;
+.email {
+  width: 37px;
+  vertical-align: middle;
+  padding: 0 0 0 20px;
 }
 
-.email{
-    width: 50px;
-    vertical-align: middle;
-    padding: 0 0 0 20px;
+.git {
+  width: 25px;
+  vertical-align: middle;
+  padding: 0 0 0 27px;
 }
 
-.git{
-    width: 35px;
-    vertical-align: middle;
-    padding: 0 0 0 27px;
+a {
+  text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
