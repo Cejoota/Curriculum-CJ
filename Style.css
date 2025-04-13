@@ -16,10 +16,10 @@ body {
 
 #direito {
   background-color: white;
-  width: 61%;
+  width: 59%;
   float: right;
   box-sizing: border-box;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .resumo {
@@ -113,7 +113,10 @@ body {
   margin: 20px;
 }
 
-.linkedin, .cel, .email, .git {
+.linkedin,
+.cel,
+.email,
+.git {
   width: 30px;
   font-size: 20px;
   vertical-align: middle;
