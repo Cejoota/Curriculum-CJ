@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   border: 3px solid black;
-  height: 969px;
+  height: 988px;
   width: 793px;
   margin: 0 auto;
 }
@@ -19,7 +19,7 @@ body {
   width: 62%;
   float: right;
   box-sizing: border-box;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 .resumo {
@@ -32,7 +32,7 @@ body {
   font-size: 13px;
   box-sizing: content-box;
   text-align: left;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .xp {
@@ -69,8 +69,7 @@ body {
 #esquerdo {
   background-color: #63c0e56e;
   width: 38%;
-  height: 82%;
-  box-sizing: border-box;
+  height: 82.25%;
 }
 
 .contato {
@@ -91,14 +90,14 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin: 20px;
-  padding-top: 14px;
+  padding-top: 4px;
 }
 
 .hab2 {
   font-size: 13px;
   text-align: left;
   list-style-type: disc;
-  padding: 0 0 2% 7%;
+  padding: 0 7% 2%;
   list-style-position: inside;
   letter-spacing: 0.5px;
 }
