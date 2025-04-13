@@ -16,7 +16,7 @@ body {
 
 #direito {
   background-color: white;
-  width: 62%;
+  width: 61%;
   float: right;
   box-sizing: border-box;
   padding-right: 20px;
@@ -68,6 +68,7 @@ body {
 
 #esquerdo {
   background-color: #63c0e56e;
+  border-right: 1px solid #ccc;
   width: 38%;
   height: 83.5%;
 }
